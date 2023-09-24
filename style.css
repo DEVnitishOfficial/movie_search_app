@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.movie-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+h2,h1{
+    background-color: #25f30e;
+    color: white;
+    padding: 10px 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input, button{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 8px;
+    outline: none;
+}
+input{
+    background-color: transparent;
+    color: gold;
+    border: 2px solid rgb(251, 255, 4);
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+button{
+    background-color: rgb(3, 237, 249);
+    border: none;
+}
+button:hover{
+    background-color: rgb(175, 233, 210);
+}
+p{
+    font-size: 30px;
+    color: rgb(254, 1, 242);
+}
+.static_card{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
